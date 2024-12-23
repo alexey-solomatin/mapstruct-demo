@@ -1,0 +1,9 @@
+### Create a user
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "username": "gukeshd",
+  "fullName": "Gukesh Dommaraju",
+  "age": 18
+}
